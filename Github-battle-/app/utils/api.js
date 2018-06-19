@@ -20,6 +20,7 @@ function getStarCount(repos) {
   },0)
 }
 
+//Aamir`s special and complicated algorithm for deciding winner
 function calculateScore(profile, repos){
   var followers = profile.followers;
   var totalStars = getStarCount(repos);
