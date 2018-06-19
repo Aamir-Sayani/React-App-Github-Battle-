@@ -1,6 +1,6 @@
 var axios = require('axios');
-var id = "9c51688ab08fb8276f0e";
-var sec = "4de5859c0c7a68d6ed7e74823f5c5d07c676656b";
+var id = "YOUR Client ID";
+var sec = "Client Secret";
 var params = "?client_id=" + id + "&client_secret=" + sec;
 
 function getProfile(username) {
